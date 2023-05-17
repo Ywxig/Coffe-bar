@@ -1,0 +1,190 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+}
+
+#promo{
+  width: 150%;
+  padding-right: 20px;
+  margin: 20px;
+}
+
+.futter{
+  color:rgb(7, 7, 7);
+  border: solid 2px #0e0e0e;
+  font-size: 34px;
+  background: linear-gradient(21deg, #1c0050, #150029);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px; 
+}
+
+.Header{
+  color:rgb(7, 7, 7);
+  border: solid 2px #0e0e0e;
+  font-size: 34px;
+  background: linear-gradient(21deg, #6f4e37, #42342a);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: 0;
+}
+
+/* Цвета, используемые в Material Design */
+:root {
+    --primary-color: #2196f3;
+    --secondary-color: #9c27b0;
+    --light-color: #f5f5f5;
+    --dark-color: #424242;
+    --text-color: #333;
+  }
+  
+  /* Стиль для кнопок */
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    transition: background-color 0.3s ease-out, box-shadow 0.3s ease-out;
+  }
+  
+  .button:hover {
+    background-color: var(--dark-color);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Стиль для заголовков */
+  h1, h2, h3 {
+    font-weight: bold;
+    color: var(--primary-color);
+  }
+  
+  /* Стиль для текста */
+  p {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Стиль для форм */
+  form {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: 10px;
+    color: var(--text-color);
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  form input[type="text"], form input[type="email"], form select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    transition: background-color 0.3s ease-out, box-shadow 0.3s ease-out;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: var(--dark-color);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Стиль для списка товаров */
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+    transition: box-shadow 0.3s ease-out;
+  }
+  
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .product-card {
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product-title {
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .product-description {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-weight: bold;
+  }
+  
+  .add-to-cart-button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

@@ -1,0 +1,37 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Content{
+    color:rgb(20, 20, 20);
+}
+
+.Futter{
+    border: solid 2px #0e0e0e;
+}
+
+.Logo{
+    width: 100px;
+}
+
+.Name-b{
+    border-bottom: solid 1px #000000;
+}
+
+.Block{
+    border: solid #000000 2px;
+    border-radius: 20px;
+}
+
+.Tea{
+    border: solid 2px #0e0e0e;
+}
+
+.Coffe{
+    border: solid 2px #0e0e0e;
+}
+
+.Algahol{
+    border: solid 2px #0e0e0e;
+}
